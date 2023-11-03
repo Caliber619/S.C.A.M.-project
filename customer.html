@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Page</title>
+    <link rel="stylesheet" href="customer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/icons8_Account_50px.png" alt="">
+            <div>Customer</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navigation bar -->
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Helper Details</a></li>
+                <li><a href="#">Extra(FFU)</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for button -->
+            <button class="btn">Call us</button>
+            <button class="btn">E-mail us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Enter the items you want to buy</h1>
+        <form action="connect.php" method="post">
+            <div class="form-group">
+                <input type="text" name="item1" placeholder="item 1">
+            </div>
+            <div class="form-group">
+                <input type="text" name="item2" placeholder="item 2">
+            </div>
+            <div class="form-group">
+                <input type="text" name="item3" placeholder="item 3">
+            </div>
+            <div class="form-group">
+                <input type="text" name="item4" placeholder="item 4">
+            </div>
+            <div class="form-group">
+                <input type="text" name="item5" placeholder="item 5">
+            </div>
+            <input type="submit" value="place Order">
+        </form>
+    </div>
+
+</body>
+</html>
